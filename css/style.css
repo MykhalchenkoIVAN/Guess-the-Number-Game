@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Undertale Battle Font";
+  src: url("font/Undertale-Battle-Font.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Undertale Battle Font", cursive;
+  background: linear-gradient(to bottom right, blue, rgb(111, 126, 25));
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+}
+.rejekt {
+  font-family: "Undertale Battle Font", cursive;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 10px;
+  width: 255px;
+  height: 50px;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+}
+.bnt {
+  margin-top: 10px;
+  font-family: "Undertale Battle Font", cursive;
+  font-size: 26px;
+  background-color: white;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+}
+.bnt:hover {
+  background-color: #3e8e41;
+}
+.bnt:active {
+  background-color: #3e8e41;
+  box-shadow: 0px 5px rgb(111, 126, 25, 0.3);
+  transform: translateY(4px);
+}
+.input_class {
+  color: white;
+  background-color: transparent;
+  border: 5px solid white;
+  font-family: "Undertale Battle Font", cursive;
+  width: 150px;
+  height: 100px;
+  font-size: 40px;
+  padding-left: 30px;
+}
+.input_class {
+}
+.text {
+  background: transparent;
+}
+.result {
+  color: white;
+  width: 493px;
+  height: 50px;
+  font-size: 45px;
+  text-align: center;
+}
+.display {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 493px;
+  height: 100px;
+  font-size: 50px;
+}
+.secretNumber {
+  width: 400px;
+  height: 100px;
+  font-size: 98px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score {
+  color: white;
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span_score {
+}
+.result_score {
+  color: white;
+  font-size: 48px;
+}
